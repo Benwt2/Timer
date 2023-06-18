@@ -14,7 +14,7 @@
         <Button x:Name="btnCancelAlert" Content="取消鬧鐘" HorizontalAlignment="Left" Margin="176,292,0,0" VerticalAlignment="Top" Height="59" Width="112"/>
         <ComboBox x:Name="cmbHour" HorizontalAlignment="Left" Margin="308,300,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="cmbMin" HorizontalAlignment="Left" Margin="451,300,0,0" VerticalAlignment="Top" Width="120"/>
-        <MediaElement x:Name="meSound" HorizontalAlignment="Left" Height="100" Margin="614,292,0,0" VerticalAlignment="Top" Width="100"/>
+        <MediaElement x:Name="meSound" HorizontalAlignment="Left" Height="100" Margin="614,292,0,0" VerticalAlignment="Top" Width="100" Source="/clock.png" Volume="1"/>
 
     </Grid>
 </Window>
